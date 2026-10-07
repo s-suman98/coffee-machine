@@ -1,0 +1,21 @@
+
+
+ 1. user can select the drink (coffee,tea ,milk)
+ 1.  Selecting a drink from a menu
+ Customizing options (e.g., sugar level, milk type, size)
+ Making payment (coins,
+
+ Receiving the prepared beverage
+
+
+ IDEL -> ITEMSELECTED ->do payment-> DISPENCE ->IDE
+
+
+
+ void selectItem(Machine machine);
+ void makePayment(Machine machine);
+ void collectItem(Machine machine);
+
+
+
+IDEL   selectItem ->     iTEMSELCETD  -makePayment   ->  PayemntReceivedState --->Auto -> Brewing  -->colect idle
