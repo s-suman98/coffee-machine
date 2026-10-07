@@ -1,11 +1,12 @@
 
 package states;
+import enums.Menu;
 
 import core.Machine;
 
 public class  DispatchIng implements StateI{
 @Override
-public void selectItem (Machine machine) {
+public void selectItem (Machine machine, Menu menu) {
 
 }
 

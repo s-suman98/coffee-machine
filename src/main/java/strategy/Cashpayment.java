@@ -6,9 +6,6 @@ import enums.PaymentType;
 public class Cashpayment extends PaymentStrategy {
 
 
-public Cashpayment (PaymentType paymentType) {
-	super (paymentType);
-}
 
 @Override
 public Boolean pay () {
